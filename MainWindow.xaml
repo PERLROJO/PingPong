@@ -5,14 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="358.688" Width="526.242" KeyDown="Window_KeyDown_1">
+        Title="MainWindow" Height="389.716" Width="630.497" KeyDown="Window_KeyDown_1">
     <Grid HorizontalAlignment="Left" Width="526" Margin="0,0,-8,0">
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="272" VerticalAlignment="Top" Width="495" Margin="10,10,0,0">
-            <Canvas x:Name="canvas" RenderTransformOrigin="0.485,0.511" Margin="-1,0" Height="272" Width="495" />
+            <Canvas x:Name="canvas" RenderTransformOrigin="0.485,0.511" Margin="-1,0,-82,-2" Height="272" />
         </Border>
-        <Button x:Name="___playpause_" Content="Iniciar" HorizontalAlignment="Left" Margin="399,287,0,0" VerticalAlignment="Top" Width="75" FontSize="18" Click="___playpause__Click"/>
-        <Label x:Name="j1" Content="0" HorizontalAlignment="Left" Margin="191,284,0,0" RenderTransformOrigin="1.676,0.621" Height="26" VerticalAlignment="Top" FontSize="18"/>
-        <Label x:Name="j2" Content="0" HorizontalAlignment="Left" Margin="255,284,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.948,0.382" FontSize="18"/>
+        <Button x:Name="___playpause_" Content="Iniciar" Margin="521,54,-70,0" VerticalAlignment="Top" FontSize="18" Click="___playpause__Click" RenderTransformOrigin="0.496,2.381"/>
+        <Label x:Name="j1" Content="0" HorizontalAlignment="Left" Margin="177,307,0,0" RenderTransformOrigin="1.676,0.621" Height="26" VerticalAlignment="Top" FontSize="18"/>
+        <Label x:Name="j2" Content="0" HorizontalAlignment="Left" Margin="337,307,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.948,0.382" FontSize="18"/>
+        <Label x:Name="Jugador1" Content="Player1:" HorizontalAlignment="Left" Margin="100,307,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.645,-0.302" FontSize="14" FontFamily="Times New Roman"/>
+        <Label Content="Player2:" HorizontalAlignment="Left" Margin="247,307,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.398,0.512" Width="58" FontSize="14" FontFamily="Times New Roman"/>
 
     </Grid>
 </Window>

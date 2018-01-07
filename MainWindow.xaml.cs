@@ -46,11 +46,11 @@ namespace WpfApp1
             {
                 jug1.subir();
             }
-            if(e.Key == Key.W)
+            if(e.Key == Key.Q)
             {
                 jug2.subir();
             }
-            if(e.Key == Key.S)
+            if(e.Key == Key.A)
             {
                 jug2.bajar();
             }
